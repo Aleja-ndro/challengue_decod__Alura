@@ -1,0 +1,58 @@
+@media only screen and (max-width:768px)
+    
+{
+    main {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+        justify-content: space-around;
+        background: lightcyan;
+    
+    } 
+
+    .log{
+        margin-left: 100px;
+    } 
+    
+    body{
+        display: grid;
+        background: lightblue;
+    }
+    .mensaje{ 
+        margin-right: 5px;
+        position: relative;
+        margin-left: 30px;
+        background-image: url("Imagen/Muñeco.png");
+        background-repeat: no-repeat;
+        background-size: 15rem;
+        
+    }
+    .boton{
+        display: flex;
+        justify-content: space-around;
+    }
+    .encriptar {
+     background:lightblue;   
+     border-radius: 25px;
+     margin-top: 5px;
+     margin-bottom: 5px;
+    }
+    .desencriptar{
+              background: lightgreen;
+              border-radius: 25px;
+              margin-top: 5px;
+              margin-bottom: 5px;
+        
+    }
+     .copiar{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 25%;
+        margin-left: 25px;
+        padding: 2%;   
+        border-radius: 25px;
+        background: lightseagreen;
+        margin-left: 100px;
+       
+     }
+}

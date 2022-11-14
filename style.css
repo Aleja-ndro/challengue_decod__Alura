@@ -1,0 +1,74 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-around;
+    background: lightcyan;
+
+}
+
+.boton {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+body {
+    background: lightblue;
+    display: grid;
+}
+
+.mensaje {
+    background-image: url("Imagen/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10rem;
+    position: relative;
+    margin-left: 30px;
+
+}
+
+.caja1 {
+    display: grid;
+
+}
+
+.caja2 {
+    display: grid;
+
+}
+
+.encriptar {
+    background: lightblue;
+    border-radius: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.desencriptar {
+    background: lightgreen;
+    border-radius: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.copiar {
+
+    padding: 5%;
+    border-radius: 25px;
+    background: lightseagreen;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 25px;
+    margin-left: 50px;
+
+}
+
+.rodapie {
+    text-align: center;
+}

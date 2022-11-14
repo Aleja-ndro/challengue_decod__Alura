@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsivo.css">
+    <title>Encriptador</title>
+
+</head>
+
+<body>
+    <header>
+      
+        <img  class="log" src="Imagen/logo.png" alt="logo">
+    </header>
+    <main>
+        <section class="caja1">
+            <textarea class="input-texto" cols="30" rows="12" placeholder="ingrese el texto aqui"></textarea>
+            <div class="boton">
+                <button class="encriptar" onclick="btnEncriptar()">
+                    Encriptar</button>
+                <button class="desencriptar" onclick="btnDesencriptar()">
+                    Desencriptar</button>
+            </div>
+
+        </section>
+
+        <section class="caja2">
+            <textarea class="mensaje" cols="25" rows="15"></textarea>
+            <button class="copiar" onclick="copiar()">Copiar</button>
+        </section>
+    </main>
+    <script src="script.js">
+
+    </script>
+    <footer class="rodapie"> ©Todos los derechos reservados <br> Alejandro Mayorga</footer>
+    
+
+</body>
+
+</html>
